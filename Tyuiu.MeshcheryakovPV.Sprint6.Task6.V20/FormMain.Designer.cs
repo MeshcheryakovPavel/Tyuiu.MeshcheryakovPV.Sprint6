@@ -1,6 +1,6 @@
 ﻿namespace Tyuiu.MeshcheryakovPV.Sprint6.Task6.V20
 {
-    partial class FormMain
+    partial class FormMain_MPV
     {
         /// <summary>
         /// Required designer variable.
