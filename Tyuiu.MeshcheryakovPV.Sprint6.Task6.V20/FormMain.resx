@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>&lt;root&gt;</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value>... ado.net/XML headers &amp; schema ...</value>
+  </data>
+  <data name="String100" xml:space="preserve">
+    <value>&lt;value&gt;2.0&lt;/value&gt;</value>
+  </data>
+  <data name="String101" xml:space="preserve">
+    <value>&lt;/resheader&gt;</value>
+  </data>
+  <data name="String102" xml:space="preserve">
+    <value>&lt;resheader name="reader"&gt;</value>
+  </data>
+  <data name="String103" xml:space="preserve">
+    <value>&lt;value&gt;System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&lt;/value&gt;</value>
+  </data>
+  <data name="String104" xml:space="preserve">
+    <value>&lt;/resheader&gt;</value>
+  </data>
+  <data name="String105" xml:space="preserve">
+    <value>&lt;resheader name="writer"&gt;</value>
+  </data>
+  <data name="String106" xml:space="preserve">
+    <value>&lt;value&gt;System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&lt;/value&gt;</value>
+  </data>
+  <data name="String107" xml:space="preserve">
+    <value>&lt;/resheader&gt;</value>
+  </data>
+  <data name="String108" xml:space="preserve">
+    <value>&lt;assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" /&gt;</value>
+  </data>
+  <data name="String109" xml:space="preserve">
+    <value>&lt;data name="buttonDo_MPV.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64"&gt;</value>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>&lt;resheader name="resmimetype"&gt;text/microsoft-resx&lt;/resheader&gt;</value>
+  </data>
+  <data name="String110" xml:space="preserve">
+    <value>&lt;value&gt;</value>
+  </data>
+  <data name="String111" xml:space="preserve">
+    <value>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m</value>
+  </data>
+  <data name="String112" xml:space="preserve">
+    <value>dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAQISURBVFhHtZfLbxtVFMaPxGtV8RDtv8Cmoi8BQoJS</value>
+  </data>
+  <data name="String113" xml:space="preserve">
+    <value>EhDtomXDAnaIFTtWgEQCaaAtEl2ClDRFSgtYURs7tpRGiaJWCmqbhkYFtaipKiLysD2O83CI4/fr43zX</value>
+  </data>
+  <data name="String114" xml:space="preserve">
+    <value>7lDH9jBW3E/66Uwy957z3TN3JjcCQFSP+/z+S75AAN6hIQw2hc9EnY+LXm+AuZjQtSoGdjDBdhWNRuEZ</value>
+  </data>
+  <data name="String115" xml:space="preserve">
+    <value>GBjSfI8xqSvpPIadXDn199w85uYXXMPx1M8ej4mRSAS/DAx4Nac7EzqHYRfbSM0vLGJhMYjFYOh/4TiO</value>
+  </data>
+  <data name="String116" xml:space="preserve">
+    <value>p7Qo1mLr5tqyLFz0+SzN+wSTO0rHM9gGmDQYCruG4yltPZLJFKLLK+Znmrjg9YY1t7MJHctgG+DKQmHL</value>
+  </data>
+  <data name="String117" xml:space="preserve">
+    <value>NRxP0UChkEc8vmmb4OPQTjib0HEMtoGwOrd0oltCVtjM4yOgaIKdePA4uDF1gy9rjfomdAzDrkGfz0xg</value>
+  </data>
+  <data name="String118" xml:space="preserve">
+    <value>0sjSkmvCEcvMuzk9bUywE4TXP1U2Jt8wrfEMC9VI7zPYBiJLUSxFl13D8ZvxhJnbSOwua7BQjfQ+g22A</value>
+  </data>
+  <data name="String119" xml:space="preserve">
+    <value>SfkMm8EYqfCwMUIxN2uwUI30PoNtYFkTrqysbhvmIVRTBjh5dXWtJTAX1ZSB1dia7uBYS2AuqikDsfWY</value>
+  </data>
+  <data name="String12" xml:space="preserve">
+    <value>&lt;resheader name="version"&gt;2.0&lt;/resheader&gt;</value>
+  </data>
+  <data name="String120" xml:space="preserve">
+    <value>st4iYiZnUwbW/9loKVRTBjY24i1i0349+YeONVioRnqfwTbAT+l2YeFUIotixqREIDDi3sBmIrFtksk0</value>
+  </data>
+  <data name="String121" xml:space="preserve">
+    <value>kAd2fyE4Pfo+xkem3BtIJJMuSSGVSiOVziCdzlaRzRRNrpe6BB0ewSe9b7s3kEoxsTNpLZzL6BILZkpD</value>
+  </data>
+  <data name="String122" xml:space="preserve">
+    <value>vdItuLvwKTovCA51S/2Tko5jsA2UV8FVNSabyQG6yC7fEeztEOzrFOx/iANfiln9y8rd4HFcu/8BvhoU</value>
+  </data>
+  <data name="String123" xml:space="preserve">
+    <value>tJ+oY2KrgYwmz2SyjuRy5Rbv0eJzKz/gduQI7kSOKscqvGu4bR3FPet79EwIJmc/RJdf8NZWE5qHwTaQ</value>
+  </data>
+  <data name="String124" xml:space="preserve">
+    <value>zeeRzeUcKRRKZixXPhP5Bj1XBb3KmS3wd73X9Pq6oG9ScGP+I3QPC945JcNas3x61jwMtoFCoYC8mnCi</value>
+  </data>
+  <data name="String125" xml:space="preserve">
+    <value>VG6Aafd06GP0TGkh5cxWfivTV4nnbz2F0dndOPydsOgOFq4xUCwWjQknUG4ADqiBieAx9P0hONuAvltl</value>
+  </data>
+  <data name="String126" xml:space="preserve">
+    <value>zv4u6L8j6B4TtHXKhNZ8joX/M1A5klGlUsmRB2IHxsJ70X9fcK4O/fcEP/5Z5tyM4Pi44ODn8qvWe1Gp</value>
+  </data>
+  <data name="String127" xml:space="preserve">
+    <value>7gD/K2pWp0ffw6tfC147Uc3ryhtE752f1eJ/6cov28X3K88r1XtgyO+P8+zGTvBxOMFvuz8wjJFLVzA+</value>
+  </data>
+  <data name="String128" xml:space="preserve">
+    <value>eh2Xx6aquDJ2E1fHZ3DopMAT1pXrW3Dws6riNW8BD4z7lDalvUUcfvNbwckb2onqldf9DvDITBP8XLaK</value>
+  </data>
+  <data name="String129" xml:space="preserve">
+    <value>F9p1t7d1yKRe1y9OVQw8Cj2rcLPtUXYqtcWpR2jgSeVphbu9wb/sIv8CLsCWtOnpNusAAAAASUVORK5C</value>
+  </data>
+  <data name="String13" xml:space="preserve">
+    <value>&lt;resheader name="reader"&gt;System.Resources.ResXResourceReader, System.Windows.Forms, ...&lt;/resheader&gt;</value>
+  </data>
+  <data name="String130" xml:space="preserve">
+    <value>YII=</value>
+  </data>
+  <data name="String131" xml:space="preserve">
+    <value>&lt;/value&gt;</value>
+  </data>
+  <data name="String132" xml:space="preserve">
+    <value>&lt;/data&gt;</value>
+  </data>
+  <data name="String133" xml:space="preserve">
+    <value>&lt;metadata name="toolTipIn_MPV.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"&gt;</value>
+  </data>
+  <data name="String134" xml:space="preserve">
+    <value>&lt;value&gt;279, 20&lt;/value&gt;</value>
+  </data>
+  <data name="String135" xml:space="preserve">
+    <value>&lt;/metadata&gt;</value>
+  </data>
+  <data name="String136" xml:space="preserve">
+    <value>&lt;data name="buttonOpenFile_MPV.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64"&gt;</value>
+  </data>
+  <data name="String137" xml:space="preserve">
+    <value>&lt;value&gt;</value>
+  </data>
+  <data name="String138" xml:space="preserve">
+    <value>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m</value>
+  </data>
+  <data name="String139" xml:space="preserve">
+    <value>dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAVUSURBVFhHxZd7bJNVGMaLl4BE8EJoYoxoookmYoyX</value>
+  </data>
+  <data name="String14" xml:space="preserve">
+    <value>&lt;resheader name="writer"&gt;System.Resources.ResXResourceWriter, System.Windows.Forms, ...&lt;/resheader&gt;</value>
+  </data>
+  <data name="String140" xml:space="preserve">
+    <value>CQoKiERDDCj6L3ILyGVjYxsbbAMEFBI2b2yA1z+MuoCOcRekjBAdIkO3bmOXdi3dgN3YpbCVrffH5z1f</value>
+  </data>
+  <data name="String141" xml:space="preserve">
+    <value>6brRdZ0s+ia/tD3nfOd5vvM957TVAfhfkbrj75xph405L6Nk+yTyUhgmQfo57pCMV1cNYY2SyeGtAZxV</value>
+  </data>
+  <data name="String142" xml:space="preserve">
+    <value>QHf1zTgJ+43Zk8XyKO2yoauxcoci7iqZC2fJfLKgD+8B7SfwV9bzKP78xTArFJnA6h2mVtjV0ysDXeVw</value>
+  </data>
+  <data name="String143" xml:space="preserve">
+    <value>li6Cs2wpnOXLeigjpUvga9zN1TDT6CBxmQDfBWWCWmFXTzNwvYSC78N5PpbE9WEF+2isbMkgWQxX2UIa</value>
+  </data>
+  <data name="String144" xml:space="preserve">
+    <value>r+BKTBIDYzXJ3hUwcBau88vgqlhJ4sMg7UJcAO2zOyJxZBnnPkMDKj96TbJ30cBkoLMQrspYuKoSyKoB</value>
+  </data>
+  <data name="String145" xml:space="preserve">
+    <value>cZsS4TEnwWtJjkASfJYEzl2Akmz1CCIZOAV3NV1XJ5KkiHjMyfBZU2D9+W2cy5pIXghPphDD8Mag+LOJ</value>
+  </data>
+  <data name="String146" xml:space="preserve">
+    <value>DLCEMrilg6HUDHQUwG3mnXFyd81qeGpSbsaSwrtKhc+2Fhfy5sCaO5MhY9C6Kxniiv5hBno4zy1t6hVK</value>
+  </data>
+  <data name="String147" xml:space="preserve">
+    <value>GuA5cO0YhZMpkgqvLQ2+WlInpPfCfzGD4u/Cuns2PBXLGbLFcBq5e4wLo2A+b2QDPG1/4tTWCUXUHhNi</value>
+  </data>
+  <data name="String148" xml:space="preserve">
+    <value>4Ai81lT4a0VgDooyJwSWsC8TYd0zG97qBLgrGU7uEo1YuAfAxS3ub/wOzUXZyFk+Pp3a94YYOKDu2H5m</value>
+  </data>
+  <data name="String149" xml:space="preserve">
+    <value>Kcw/vA44/uBj+Z0UhnCanIFHxCWMlRpu4mMbTPFkZXiYL3/VCuoUoGbvEjzz2D1PU3uEMlAsBq7mA5fX</value>
+  </data>
+  <data name="String15" xml:space="preserve">
+    <value>&lt;data name="Name1"&gt;&lt;value&gt;this is my long string&lt;/value&gt;&lt;comment&gt;this is a comment&lt;/comment&gt;&lt;/data&gt;</value>
+  </data>
+  <data name="String150" xml:space="preserve">
+    <value>48Led9BSmAS//QQDR+cqmPEaFHCbKG5iGE3MCvEQWBLhYjgHwmPbCrQdxbnt05qp+yC5rcdAx09Aw0YY</value>
+  </data>
+  <data name="String151" xml:space="preserve">
+    <value>d06B07ZLLZXbzB3BQLoZwN6kBvEymKhLxBPbDkOXchK6ZAM53pvV0mbA41kn0HR6E75PfCqLuveLuBQf</value>
+  </data>
+  <data name="String152" xml:space="preserve">
+    <value>wSvchnvQVZWCiq9f5bm/H56LmfBY15C0iPi5I3A5iQIn+e0aufIq7XhzUxbeirlvMnVHavI3DFzPRYNh</value>
+  </data>
+  <data name="String153" xml:space="preserve">
+    <value>HuoNPLns++CtXcfdkEHktX9Ql8GVWw1dokGJHKxuxKEAB4iULjYP7V1u9V5M6Fbtz6fucE1eDGRP4X7N</value>
+  </data>
+  <data name="String154" xml:space="preserve">
+    <value>RcW3M9Bt+QRo/gbeug1k44Dg0gccn8ZJjysBg+UKCqwaBkuzatMl5KPW3oWmTqf6fNTcitFpB4O/LfTG</value>
+  </data>
+  <data name="String155" xml:space="preserve">
+    <value>nKnwt+5E6c6pDGMu/A2fwndpM/lwQFC/GWhZFzTwW10rCi+2KeS9lG7VPlRe6VAm7IGVuHvdkZ6DyLhj</value>
+  </data>
+  <data name="String156" xml:space="preserve">
+    <value>GjrKM1B7cB6X/0f4GrbAV781KtC4hcneSJFf1cRFl9txrt6uOHupXbXN/PI0+/Ohiyd8HFIjM5QB9e2o</value>
+  </data>
+  <data name="String157" xml:space="preserve">
+    <value>L901HbZDc2liEw18BVzZRjKjo4Vjr30UNFDWdE1RTowNV1VbuLornbuG2spA2Rev8duKOfDwR4eDBjp3</value>
+  </data>
+  <data name="String158" xml:space="preserve">
+    <value>RI8jh98HHwdDaG51BDGRqpZOVCscCmmTGhFqoGTXjA4xIVko5o4YDKU8Q2w5z6kzQEqes43I6433Qdq1</value>
+  </data>
+  <data name="String159" xml:space="preserve">
+    <value>NqkRaT0G5Dx+dsWsR+MWvfFI7GBZMGPc8lkxYxbp1pxSEzc5nGhk2vtD+qVCDdxJ5FR6iDz8LxhHxuvW</value>
+  </data>
+  <data name="String16" xml:space="preserve">
+    <value>&lt;data name="Color1" type="System.Drawing.Color, System.Drawing"&gt;Blue&lt;/data&gt;</value>
+  </data>
+  <data name="String160" xml:space="preserve">
+    <value>FqiJ7d0etDHp/SH9UqEGpIaR24mYGSyylx8YlnZMTdzt9cHh9vaL9EsN72PgVks/PP2ImjjaCt0FQ1H6</value>
+  </data>
+  <data name="String161" xml:space="preserve">
+    <value>0et/CUwdXcl4uU67/NZrrD41t1AmlTuT5e0P6ZdxMl6u0y6/9ZIj9UkyhUyPAhkn44fsb54EUSaTO5Jl</value>
+  </data>
+  <data name="String162" xml:space="preserve">
+    <value>HQgZJ+PD/lX7D0un+wcV4Qo0YCy50QAAAABJRU5ErkJggg==</value>
+  </data>
+  <data name="String163" xml:space="preserve">
+    <value>&lt;/value&gt;</value>
+  </data>
+  <data name="String164" xml:space="preserve">
+    <value>&lt;/data&gt;</value>
+  </data>
+  <data name="String165" xml:space="preserve">
+    <value>&lt;data name="buttonHelp_MPV.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64"&gt;</value>
+  </data>
+  <data name="String166" xml:space="preserve">
+    <value>&lt;value&gt;</value>
+  </data>
+  <data name="String167" xml:space="preserve">
+    <value>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m</value>
+  </data>
+  <data name="String168" xml:space="preserve">
+    <value>dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAhySURBVFhHpVcJVJTXFTbHmlPTUyPLgLHaWmNEjBWw</value>
+  </data>
+  <data name="String169" xml:space="preserve">
+    <value>GixxqYBLZDFpDDNDgbhr1Wi0FDei4hIXghpFFEFUZN8clLghVTZZBNkHGJbBBQgCRVEQAf167z//KAgc</value>
+  </data>
+  <data name="String17" xml:space="preserve">
+    <value>&lt;data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64"&gt;</value>
+  </data>
+  <data name="String170" xml:space="preserve">
+    <value>TXvP+c68/75773fffev0e1vRnbt/kJ40ZL2OLCLvfWkUBjlEvgR/D5ZFQVcekacvC12vR7ai2/8t7+h/</value>
+  </data>
+  <data name="String171" xml:space="preserve">
+    <value>cexDXVlEgYHzOXx+MBeu0fdxPKsNAXkd8LvdDt+sp/DJbIVn4iOsCKzA7O8zYeCigL5jZIGEfDmGJtQv</value>
+  </data>
+  <data name="String172" xml:space="preserve">
+    <value>l/56snBfJl4TWoWwUiBWDST8DNx8CKQT0pqo/R8gpRG48YD7n+Nk7lMhGfkxJQzJVyKP8OVYmpBvLwN0</value>
+  </data>
+  <data name="String173" xml:space="preserve">
+    <value>pJE1U9xTcTKnA5fvA5mPgSOZTXA6VQKz71Ix7JsEDF+jwTCC6dZUOPoXwyu5EVdrQIm0wi22Bqau16ka</value>
+  </data>
+  <data name="String174" xml:space="preserve">
+    <value>0TUcUxP6zTLgfYeI6iWnyhChAlJphIGFLZiwPRUj/3kdRm6JMN6UhI83J2OcCG6PJZ3RhkR8SIQTtt2E</value>
+  </data>
+  <data name="String175" xml:space="preserve">
+    <value>d+ZDRJd3YOulOny2Pxt68shqjq2h6Fto5BG1WnIe9arICoyioB8TgYl7Ckxp9GY02t7AfWzDSY12u4El</value>
+  </data>
+  <data name="String176" xml:space="preserve">
+    <value>wWU4X/UCW+JqMXPvLUgco2qZQ0PVU/rrOQT5T/kuBaGlLwTyxUEqjN2YJJT8z9vSMHF7mvA7YWsaEd7s</value>
+  </data>
+  <data name="String177" xml:space="preserve">
+    <value>BtZ1tWEdV8aZpkxR+Rzrou5h3LfXIJGF+DOXhvKVvDPY0t2YF5xvdhuSqexrY6rwpy3JmOiRBvOd6QIm</value>
+  </data>
+  <data name="String178" xml:space="preserve">
+    <value>7UiHKZXXeEsKRm1Mxki3JAHcNt6cAhMindTVntomlPyykHIEFjyF00kVDF3OQdfK3Zg5NdQaeVdXGqZc</value>
+  </data>
+  <data name="String179" xml:space="preserve">
+    <value>ebYScXeAIGUrxlMpzXekwWJ3hoDJFJDJrT2zkF31CK9LFunmH82FCdkwudaP2zw9h242YXdCPWbszOCd</value>
+  </data>
+  <data name="String18" xml:space="preserve">
+    <value>&lt;value&gt;[base64 mime encoded serialized .NET Framework object]&lt;/value&gt;</value>
+  </data>
+  <data name="String180" xml:space="preserve">
+    <value>oWRODTXJe2NshkqcFDhT0IkM2l6WRPKXXRmYSvM2jcC/5uQoPZYn0vUtDj55+IRstb4MTsTyh2yEFbdT</value>
+  </data>
+  <data name="String181" xml:space="preserve">
+    <value>FUqpCgr8hjhF+n79db844W5LKzVS1YkTOY9o5OmYTo4z9mcJmL4vCxN3ZEBd3yrSACW1T7AgoBALA4qQ</value>
+  </data>
+  <data name="String182" xml:space="preserve">
+    <value>XkFZi9L5HJjgQf7k88pfk8Se6/VYH3MXJq7/huRLP3fm5gQG6jiEKFeHqnG5GlgTVYVpezJh5ZkNa8qa</value>
+  </data>
+  <data name="String183" xml:space="preserve">
+    <value>YUlBeFRaae98gU/JxnwXIwNjtqTibmOb2AuYUQJMrPVn/JWS4F3hmdQEC5omiTyMp2EgJ6DD5/j+pIfC</value>
+  </data>
+  <data name="String184" xml:space="preserve">
+    <value>nrc7kksOtzH7YM5LzDqQg+lUofXhKvglVcPjfCWm7suGFdlNo5Fa7M3Co6cdIj0wiRKz9uoeg79tj+TR</value>
+  </data>
+  <data name="String185" xml:space="preserve">
+    <value>NLfBmmIZOJ0Dc3MCEr5MDqY+Aa0ToVxzyGHuj7ndwDoOYkmk/DuLvrk9k9r1zc9EakDd0IoplNwcuje6</value>
+  </data>
+  <data name="String186" xml:space="preserve">
+    <value>+R/KpYSzEVzUDivql2gSkHACBpzAvhuPhDPdyisLNlQFO++8HrAVYUMjmX2IRkZBG568ImdZEliMWdTH</value>
+  </data>
+  <data name="String187" xml:space="preserve">
+    <value>dt18BZ/bCCp8hum7b2krYCAkMJgS+D6hCckNEMplfzQfn/sU9Ak773zM8MpBU0unSAs8aG7H0rMlRJ4H</value>
+  </data>
+  <data name="String188" xml:space="preserve">
+    <value>e++ePvOOFmDu4Vw6D57BgtZT9wRoDXjENyKxHrChcv2NHOYfL+wVXxLsKQG3mAqRGqgjchvS2R7JJ98+</value>
+  </data>
+  <data name="String189" xml:space="preserve">
+    <value>/I4VYh5V4kx+G8y33+yegK48GhvP1+IaXbVOp4ox37cQUr+iXuFAmEcJKnIpW1E84qpgR1X76kTfftzn</value>
+  </data>
+  <data name="String19" xml:space="preserve">
+    <value>&lt;/data&gt;</value>
+  </data>
+  <data name="String190" xml:space="preserve">
+    <value>FFBC74cnMKMjmq9qbQISXYcgley4EmEl7dh88T4cThTB8WRxr5AT5vsWwTP+nkgPrIssJwJlr/ZayPyU</value>
+  </data>
+  <data name="String191" xml:space="preserve">
+    <value>WBdzB+4/1cLo2wQYykNUzM0J6OjM2eM1dVsqDqQ8hH9OM6T+SuHedz7dE04EGQW0o5JaHsoXYE9t1vVm</value>
+  </data>
+  <data name="String192" xml:space="preserve">
+    <value>z2AfxwAl9l5vhMPxIoxYcRl6n+3zYm5OYOAAidEEPh5dFTW4SANbElImOC4ILO2Br8+UQkpkF/Jpy4jC</value>
+  </data>
+  <data name="String193" xml:space="preserve">
+    <value>bdZxX28+LmdKsJQOoaMZj2HK5f9agXeJk7k5AT4Of6fvEFwxl/b1odSHOF3QCpfTpVh4VkVXclk3LAws</value>
+  </data>
+  <data name="String194" xml:space="preserve">
+    <value>w1f+JSL1K2Ed971uv+gs+6jwQ3ITFp5W4Y+rrmKIPKSCOUVuQQYPHGVla+iswAJ6jIQUt9HNVUcBVHSV</value>
+  </data>
+  <data name="String195" xml:space="preserve">
+    <value>lmF5aPlLLKVvx1P0QHxNWMd9XW2Xifbul2qw+1oDRq5NwBCq9HsfWdkyp4ZaI3w1/kHX/rBi7Np4LA9W</value>
+  </data>
+  <data name="String196" xml:space="preserve">
+    <value>I6aik7bmz1hOAf4RVoGV4RpwexGN7IqSjk1RuM26bnaEFWHl2PRTDbzTufQpGLr4AiTzvBXMJXK+FH4c</value>
+  </data>
+  <data name="String197" xml:space="preserve">
+    <value>/JYwXl8e3jCFLotlwZWILOsQbrCVERX0NFNjdZQGKyPUWBpagQVB5QK4zbpvqI+hsavEtit1AvknFG/4</value>
+  </data>
+  <data name="String198" xml:space="preserve">
+    <value>8ksY4hTRwBwiV4/nOs8H78vJ+tLQ+sn0IHGkeT2Z3UI7owWusXfoplRjTTSjSvPL34KuCmu1iFHD9fxd</value>
+  </data>
+  <data name="String199" xml:space="preserve">
+    <value>HKC1tIvKPn5DMoYtI3LH8HqOLXL0eJJphR+MHxAsJLKwxtGrrmCm521sOF8tnOE+mc20Nh5gY9w9rFNU</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>&lt;!--</value>
+  </data>
+  <data name="String20" xml:space="preserve">
+    <value>&lt;data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64"&gt;</value>
+  </data>
+  <data name="String200" xml:space="preserve">
+    <value>CVjPiK0SdB7X6oStfDSjGc4BpRi+Kh4fLLqAIX8Pb+SYYuw3v4wJbDhZ3+7HOF40ZpsSKZEcLA4sx874</value>
+  </data>
+  <data name="String201" xml:space="preserve">
+    <value>BwjIbRHOdD5WT+e14RT9GfG59Zj+B1Rj3uE8GNHzXRi1Sywk9ofjOJYY843kWmFDLtX4X4/41FEiC1Ib</value>
+  </data>
+  <data name="String202" xml:space="preserve">
+    <value>Osfio9VXMY6Cm9Gj1IQW1Tj6HzDmXzcwmnSj6HT7/corGLb0okBsKA9SDyRfjiHGemtyrfA88WIZQZj0</value>
+  </data>
+  <data name="String203" xml:space="preserve">
+    <value>q0FDbXWtt/oaSIMq+RzviiG0fblShrKgSrZhW/YRfTlGn3P+JuGVytuF9ywfHPyc5nLOIFi9BtZxH9uw</value>
+  </data>
+  <data name="String204" xml:space="preserve">
+    <value>Lfuwb4/V/r8Kj4KPTj6/+RLhsnYF67iPbd5yxP36/Rc1gSQ4HAJnDgAAAABJRU5ErkJggg==</value>
+  </data>
+  <data name="String205" xml:space="preserve">
+    <value>&lt;/value&gt;</value>
+  </data>
+  <data name="String206" xml:space="preserve">
+    <value>&lt;/data&gt;</value>
+  </data>
+  <data name="String207" xml:space="preserve">
+    <value>&lt;metadata name="openFileDialogTask_MPV.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"&gt;</value>
+  </data>
+  <data name="String208" xml:space="preserve">
+    <value>&lt;value&gt;17, 17&lt;/value&gt;</value>
+  </data>
+  <data name="String209" xml:space="preserve">
+    <value>&lt;/metadata&gt;</value>
+  </data>
+  <data name="String21" xml:space="preserve">
+    <value>&lt;value&gt;[base64 mime encoded string representing a byte array form of the .NET Framework object]&lt;/value&gt;</value>
+  </data>
+  <data name="String210" xml:space="preserve">
+    <value>&lt;/root&gt;</value>
+  </data>
+  <data name="String22" xml:space="preserve">
+    <value>&lt;comment&gt;This is a comment&lt;/comment&gt;</value>
+  </data>
+  <data name="String23" xml:space="preserve">
+    <value>&lt;/data&gt;</value>
+  </data>
+  <data name="String24" xml:space="preserve">
+    <value>There are any number of "resheader" rows that contain simple</value>
+  </data>
+  <data name="String25" xml:space="preserve">
+    <value>name/value pairs.</value>
+  </data>
+  <data name="String26" xml:space="preserve">
+    <value>Each data row contains a name, and value. The row also contains a</value>
+  </data>
+  <data name="String27" xml:space="preserve">
+    <value>type or mimetype. Type corresponds to a .NET class that support</value>
+  </data>
+  <data name="String28" xml:space="preserve">
+    <value>text/value conversion through the TypeConverter architecture.</value>
+  </data>
+  <data name="String29" xml:space="preserve">
+    <value>Classes that don't support this are serialized and stored with the</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>Microsoft ResX Schema</value>
+  </data>
+  <data name="String30" xml:space="preserve">
+    <value>mimetype set.</value>
+  </data>
+  <data name="String31" xml:space="preserve">
+    <value>The mimetype is used for serialized objects, and tells the</value>
+  </data>
+  <data name="String32" xml:space="preserve">
+    <value>ResXResourceReader how to depersist the object. This is currently not</value>
+  </data>
+  <data name="String33" xml:space="preserve">
+    <value>extensible. For a given mimetype the value must be set accordingly:</value>
+  </data>
+  <data name="String34" xml:space="preserve">
+    <value>Note - application/x-microsoft.net.object.binary.base64 is the format</value>
+  </data>
+  <data name="String35" xml:space="preserve">
+    <value>that the ResXResourceWriter will generate, however the reader can</value>
+  </data>
+  <data name="String36" xml:space="preserve">
+    <value>read any of the formats listed below.</value>
+  </data>
+  <data name="String37" xml:space="preserve">
+    <value>mimetype: application/x-microsoft.net.object.binary.base64</value>
+  </data>
+  <data name="String38" xml:space="preserve">
+    <value>value   : The object must be serialized with</value>
+  </data>
+  <data name="String39" xml:space="preserve">
+    <value>: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>Version 2.0</value>
+  </data>
+  <data name="String40" xml:space="preserve">
+    <value>: and then encoded with base64 encoding.</value>
+  </data>
+  <data name="String41" xml:space="preserve">
+    <value>mimetype: application/x-microsoft.net.object.soap.base64</value>
+  </data>
+  <data name="String42" xml:space="preserve">
+    <value>value   : The object must be serialized with</value>
+  </data>
+  <data name="String43" xml:space="preserve">
+    <value>: System.Runtime.Serialization.Formatters.Soap.SoapFormatter</value>
+  </data>
+  <data name="String44" xml:space="preserve">
+    <value>: and then encoded with base64 encoding.</value>
+  </data>
+  <data name="String45" xml:space="preserve">
+    <value>mimetype: application/x-microsoft.net.object.bytearray.base64</value>
+  </data>
+  <data name="String46" xml:space="preserve">
+    <value>value   : The object must be serialized into a byte array</value>
+  </data>
+  <data name="String47" xml:space="preserve">
+    <value>: using a System.ComponentModel.TypeConverter</value>
+  </data>
+  <data name="String48" xml:space="preserve">
+    <value>: and then encoded with base64 encoding.</value>
+  </data>
+  <data name="String49" xml:space="preserve">
+    <value>--&gt;</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>The primary goals of this format is to allow a simple XML format</value>
+  </data>
+  <data name="String50" xml:space="preserve">
+    <value>&lt;xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;</value>
+  </data>
+  <data name="String51" xml:space="preserve">
+    <value>&lt;xsd:import namespace="http://www.w3.org/XML/1998/namespace" /&gt;</value>
+  </data>
+  <data name="String52" xml:space="preserve">
+    <value>&lt;xsd:element name="root" msdata:IsDataSet="true"&gt;</value>
+  </data>
+  <data name="String53" xml:space="preserve">
+    <value>&lt;xsd:complexType&gt;</value>
+  </data>
+  <data name="String54" xml:space="preserve">
+    <value>&lt;xsd:choice maxOccurs="unbounded"&gt;</value>
+  </data>
+  <data name="String55" xml:space="preserve">
+    <value>&lt;xsd:element name="metadata"&gt;</value>
+  </data>
+  <data name="String56" xml:space="preserve">
+    <value>&lt;xsd:complexType&gt;</value>
+  </data>
+  <data name="String57" xml:space="preserve">
+    <value>&lt;xsd:sequence&gt;</value>
+  </data>
+  <data name="String58" xml:space="preserve">
+    <value>&lt;xsd:element name="value" type="xsd:string" minOccurs="0" /&gt;</value>
+  </data>
+  <data name="String59" xml:space="preserve">
+    <value>&lt;/xsd:sequence&gt;</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>that is mostly human readable. The generation and parsing of the</value>
+  </data>
+  <data name="String60" xml:space="preserve">
+    <value>&lt;xsd:attribute name="name" use="required" type="xsd:string" /&gt;</value>
+  </data>
+  <data name="String61" xml:space="preserve">
+    <value>&lt;xsd:attribute name="type" type="xsd:string" /&gt;</value>
+  </data>
+  <data name="String62" xml:space="preserve">
+    <value>&lt;xsd:attribute name="mimetype" type="xsd:string" /&gt;</value>
+  </data>
+  <data name="String63" xml:space="preserve">
+    <value>&lt;xsd:attribute ref="xml:space" /&gt;</value>
+  </data>
+  <data name="String64" xml:space="preserve">
+    <value>&lt;/xsd:complexType&gt;</value>
+  </data>
+  <data name="String65" xml:space="preserve">
+    <value>&lt;/xsd:element&gt;</value>
+  </data>
+  <data name="String66" xml:space="preserve">
+    <value>&lt;xsd:element name="assembly"&gt;</value>
+  </data>
+  <data name="String67" xml:space="preserve">
+    <value>&lt;xsd:complexType&gt;</value>
+  </data>
+  <data name="String68" xml:space="preserve">
+    <value>&lt;xsd:attribute name="alias" type="xsd:string" /&gt;</value>
+  </data>
+  <data name="String69" xml:space="preserve">
+    <value>&lt;xsd:attribute name="name" type="xsd:string" /&gt;</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>various data types are done through the TypeConverter classes</value>
+  </data>
+  <data name="String70" xml:space="preserve">
+    <value>&lt;/xsd:complexType&gt;</value>
+  </data>
+  <data name="String71" xml:space="preserve">
+    <value>&lt;/xsd:element&gt;</value>
+  </data>
+  <data name="String72" xml:space="preserve">
+    <value>&lt;xsd:element name="data"&gt;</value>
+  </data>
+  <data name="String73" xml:space="preserve">
+    <value>&lt;xsd:complexType&gt;</value>
+  </data>
+  <data name="String74" xml:space="preserve">
+    <value>&lt;xsd:sequence&gt;</value>
+  </data>
+  <data name="String75" xml:space="preserve">
+    <value>&lt;xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /&gt;</value>
+  </data>
+  <data name="String76" xml:space="preserve">
+    <value>&lt;xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" /&gt;</value>
+  </data>
+  <data name="String77" xml:space="preserve">
+    <value>&lt;/xsd:sequence&gt;</value>
+  </data>
+  <data name="String78" xml:space="preserve">
+    <value>&lt;xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" /&gt;</value>
+  </data>
+  <data name="String79" xml:space="preserve">
+    <value>&lt;xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" /&gt;</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>associated with the data types.</value>
+  </data>
+  <data name="String80" xml:space="preserve">
+    <value>&lt;xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" /&gt;</value>
+  </data>
+  <data name="String81" xml:space="preserve">
+    <value>&lt;xsd:attribute ref="xml:space" /&gt;</value>
+  </data>
+  <data name="String82" xml:space="preserve">
+    <value>&lt;/xsd:complexType&gt;</value>
+  </data>
+  <data name="String83" xml:space="preserve">
+    <value>&lt;/xsd:element&gt;</value>
+  </data>
+  <data name="String84" xml:space="preserve">
+    <value>&lt;xsd:element name="resheader"&gt;</value>
+  </data>
+  <data name="String85" xml:space="preserve">
+    <value>&lt;xsd:complexType&gt;</value>
+  </data>
+  <data name="String86" xml:space="preserve">
+    <value>&lt;xsd:sequence&gt;</value>
+  </data>
+  <data name="String87" xml:space="preserve">
+    <value>&lt;xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" /&gt;</value>
+  </data>
+  <data name="String88" xml:space="preserve">
+    <value>&lt;/xsd:sequence&gt;</value>
+  </data>
+  <data name="String89" xml:space="preserve">
+    <value>&lt;xsd:attribute name="name" type="xsd:string" use="required" /&gt;</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value>Example:</value>
+  </data>
+  <data name="String90" xml:space="preserve">
+    <value>&lt;/xsd:complexType&gt;</value>
+  </data>
+  <data name="String91" xml:space="preserve">
+    <value>&lt;/xsd:element&gt;</value>
+  </data>
+  <data name="String92" xml:space="preserve">
+    <value>&lt;/xsd:choice&gt;</value>
+  </data>
+  <data name="String93" xml:space="preserve">
+    <value>&lt;/xsd:complexType&gt;</value>
+  </data>
+  <data name="String94" xml:space="preserve">
+    <value>&lt;/xsd:element&gt;</value>
+  </data>
+  <data name="String95" xml:space="preserve">
+    <value>&lt;/xsd:schema&gt;</value>
+  </data>
+  <data name="String96" xml:space="preserve">
+    <value>&lt;resheader name="resmimetype"&gt;</value>
+  </data>
+  <data name="String97" xml:space="preserve">
+    <value>&lt;value&gt;text/microsoft-resx&lt;/value&gt;</value>
+  </data>
+  <data name="String98" xml:space="preserve">
+    <value>&lt;/resheader&gt;</value>
+  </data>
+  <data name="String99" xml:space="preserve">
+    <value>&lt;resheader name="version"&gt;</value>
+  </data>
+</root>
