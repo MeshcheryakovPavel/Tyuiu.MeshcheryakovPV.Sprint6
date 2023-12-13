@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Tyuiu.MeshcheryakovPV.Sprint6.Task7.V10;
+using System.IO;
+using Tyuiu.MeshcheryakovPV.Sprint6.Task7.V10.Lib;
 
 namespace Tyuiu.MeshcheryakovPV.Sprint6.Task7.V10
 {
@@ -23,10 +24,10 @@ namespace Tyuiu.MeshcheryakovPV.Sprint6.Task7.V10
         static int rows;
         static int colums;
         static string openFilePath;
+        
+            DataService ds = new DataService();
 
-        DataService ds = new DataService();
-
-
+    
         public static int[,] LoadFromFileData(string filePath)
         {
             string fileData = File.ReadAllText(filePath);

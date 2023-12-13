@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,11 +8,12 @@ using tyuiu.cources.programming.interfaces.Sprint6;
 
 namespace Tyuiu.MeshcheryakovPV.Sprint6.Task7.V10.Lib
 {
-    public class DataService : ISprint6Task7V8
+     public class DataService : ISprint6Task7V10
     {
         public int[,] GetMatrix(string path)
         {
             string fileData = File.ReadAllText(path);
+            
 
             fileData = fileData.Replace('\n', '\r');
             string[] lines = fileData.Split(new char[] { '\r' }, StringSplitOptions.RemoveEmptyEntries);

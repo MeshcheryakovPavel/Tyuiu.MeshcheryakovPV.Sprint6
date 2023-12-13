@@ -10,7 +10,7 @@ namespace Tyuiu.MeshcheryakovPV.Sprint6.Task6.V20.Lib
 {
     public class DataService : ISprint6Task6V20
     {
-        public string CollectTextFromFile(string str, string path)
+        public string CollectTextFromFile(string str)
         {
             {
                 string[] lines = str.Split(new string[] { Environment.NewLine }, StringSplitOptions.None);

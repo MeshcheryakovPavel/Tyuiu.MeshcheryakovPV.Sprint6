@@ -46,4 +46,3 @@
         private System.Windows.Forms.Button buttonClose;
     }
 }
-}
